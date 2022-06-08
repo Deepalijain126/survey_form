@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitbliss survey form </title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body><div id="form">
+     <div><h1 id="title">Fitbliss Gym Survey Form</h1>
+        <p id="description">Filling this form will help us to serve better</p>
+     </div>
+     <form id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
+        <label for="Email" id="email-label">E-mail </label><br>
+        <input type="email" id="email" name="email" placeholder="Johndoe@yahoo.com" required><br><br>
+        <label for="number" id="number-label">Age</label><br>
+        <input id="number" type="number" name="number" placeholder="20" min="18" max="100" required><br><br>
+        <label for="fitness-level">Fitness-level</label><br>
+        <select id="dropdown" name="Fitness-level">
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Advance">Advance</option><br><br>
+        </select id="radio"><br><br>
+          <p>How often you visit gym?</p><br>
+          <input type="radio" name="visits" value="Once a week">
+          <label for="once">Once a week</label><br>
+          <input type="radio" name="visits"  value="Twice or Thrice a week">
+          <label for="Twice or Thrice">Twice or Thrice a week</label><br>
+          <input type="radio" name="visits" value="More than thrice a week">
+          <label for="more than a thrice">More than Thrice a week</label><br>
+          <input type="radio" name="visits" value ="less than four times a month">
+          <label for="less than four times">Less than four times in a month</label><br><br>
+        
+        <p>Which all are your favourite workouts?</p><br>
+        <input type="checkbox" name="workouts" value="Gym Training">
+        <label for="Gym Training">Gym Training</label><br>
+        <input type ="checkbox" name="workouts" value="Aerobics">
+        <label for="Aerobics">Aerobics</label><br>
+        <input type="checkbox" name="workout" value="Yoga">
+        <label for="Yoga">Yoga</label><br>
+        <input type ="checkbox" name="workouts" value="HIIT">
+        <label for ="HIIT">HIIT workout</label><br><br>
+
+        <p>Any comments or suggestions?</p><br>
+
+        <textarea name="comments" row="30" col="30">Any comments or suggestions...</textarea><br><br>
+        <input type="submit" id="submit"  name="submit" value="submit"></input>
+
+
+
+      
+
+    </form>
+</div>
+
+   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+    <footer> <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a></footer>
+    
+</body>
+</html>

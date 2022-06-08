@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(sports.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+
+    }
+#form{
+
+
+    width: 50%;
+    margin:auto;
+    background-color: bisque;
+    border-radius: 5px; 
+    box-shadow: 10px 10px 5px lightblue;
+    margin-bottom: 20px;
+}
+div{ background-color: aliceblue;
+    border-radius: 5px;
+
+
+
+}
+#title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+#description{
+
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom:  10px; ;
+}
+#survey-form{
+             padding-left: 20px;
+}
+#submit{
+    background-color: brown;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    color: bisque;
+} 
